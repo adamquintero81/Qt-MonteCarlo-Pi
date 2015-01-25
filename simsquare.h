@@ -1,3 +1,6 @@
+//Copyright 2015 Adam Quintero
+//This program is distributed under the terms of the GNU General Public License.
+
 #ifndef SIMSQUARE_H
 #define SIMSQUARE_H
 

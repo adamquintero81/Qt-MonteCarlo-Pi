@@ -1,3 +1,6 @@
+//Copyright 2015 Adam Quintero
+//This program is distributed under the terms of the GNU General Public License.
+
 #include "simcircle.h"
 
 simCircle::simCircle(qreal size)
