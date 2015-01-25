@@ -57,26 +57,30 @@ private:
 
   //Simulation Graphics
   void initSimView(QGraphicsView *view, QGraphicsScene *scene);
-  QGraphicsScene
-  *simScene1,
-  *simScene2,
-  *simScene3,
-  *simScene4;
+  QGraphicsScene *simScene1;
+  QGraphicsScene *simScene2;
+  QGraphicsScene *simScene3;
+  QGraphicsScene *simScene4;
   QRectF simRect;
-  int low, high, its, firstRun;
-  QList<QPointF>
-  inDots1, outDots1,
-  inDots2, outDots2,
-  inDots3, outDots3,
-  inDots4, outDots4;
+  int low;
+  int high;
+  int its;
+  int firstRun;
+  QList<QPointF> inDots1;
+  QList<QPointF> outDots1;
+  QList<QPointF> inDots2;
+  QList<QPointF> outDots2;
+  QList<QPointF> inDots3;
+  QList<QPointF> outDots3;
+  QList<QPointF> inDots4;
+  QList<QPointF> outDots4;
   int gCounter;
 
   //simulation engine
-  simMake
-  *simulation1,
-  *simulation2,
-  *simulation3,
-  *simulation4;
+  simMake *simulation1;
+  simMake *simulation2;
+  simMake *simulation3;
+  simMake *simulation4;
   void initEngine();
 
   //estimates pi
